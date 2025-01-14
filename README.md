@@ -73,15 +73,16 @@ Mengidentifikasi apakah variabel pencemar udara (PM10, PM2.5, SO2, CO, O3, NO2) 
 - **O3** memiliki pengaruh paling rendah dibandingkan variabel lainnya.
 
 ### Perbandingan Model
-| Model                         | Akurasi | RMSE | MSE  |
-|-------------------------------|---------|------|------|
-| Gaussian Naive Bayes          | 92%     | 0.38 | 0.15 |
-| Bernoulli Naive Bayes         | 78%     | 0.58 | 0.78 |
-| Ordinal Logistic Regression   | 46%     | 0.96 | 0.92 |
+| Model                                                | Akurasi | RMSE | MSE  |
+|------------------------------------------------------|---------|------|------|
+| Gaussian Naive Bayes                                 | 92%     | 0.38 | 0.15 |
+| Bernoulli Naive Bayes                                | 78%     | 0.58 | 0.78 |
+| Ordinal Logistic Regression (All-Threshold Variant)  | 46%     | 0.96 | 0.92 |
+| Ordinal Logistic Regression (Immediate Threshold)    | 47%     | 1.25 | 1.58 |
 
 ### Kesimpulan
-- **Ordinal Logistic Regression** lebih akurat dibandingkan **Naive Bayes**.
-- Model ini mampu menangani data ordinal dengan lebih baik.
+- **Gaussian Naive Bayes** lebih akurat dibandingkan **Bernoulli Naive Bayes dan Ordinal Logistic Regression (All-Threshold Variant) serta Ordinal Logistic Regression (Immediate Threshold) **.
+- Model ini mampu menangani data kontinu dengan lebih baik.
 
 ---
 
