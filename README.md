@@ -96,3 +96,6 @@ Mengidentifikasi apakah variabel pencemar udara (PM10, PM2.5, SO2, CO, O3, NO2) 
 1. Clone repositori:
    ```bash
    git clone https://github.com/username/repo-name.git
+
+2. Instal Dependensi
+   `pip install -r requirements.txt`
